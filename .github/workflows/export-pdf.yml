@@ -18,7 +18,7 @@ jobs:
           root_file: main.tex
 
       - name: Rename document
-        run: mkdir dist && mv main.pdf dist/resume.pdf
+        run: mkdir dist && mv main.pdf dist/file.pdf
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3.0.1
